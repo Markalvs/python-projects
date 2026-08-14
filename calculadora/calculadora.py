@@ -39,7 +39,7 @@ while True:
     elif operador == '*':
         print(num_1_float * num_2_float)
     else:
-         print('Nunca deveria chegar aqui')
+         print('Digite um operador.')
 
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
 
